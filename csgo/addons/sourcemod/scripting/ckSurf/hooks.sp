@@ -57,7 +57,7 @@ public Action Event_OnPlayerSpawn(Event event, const char[] name, bool dontBroad
 		}
 		g_SpecTarget[client] = -1;
 		g_bPause[client] = false;
-		g_bFirstTimerStart[client] = true;
+		g_bFirstTimerStart[client] = false;
 		SetEntityMoveType(client, MOVETYPE_WALK);
 		SetEntityRenderMode(client, RENDER_NORMAL);
 

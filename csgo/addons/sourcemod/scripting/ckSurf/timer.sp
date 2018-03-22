@@ -48,10 +48,10 @@ public Action AnnounceMap(Handle timer, any serial)
 	int client = GetClientFromSerial(serial);
 	if (IsValidClient(client))
 	{
-		PrintToChat(client, g_sTierString[0]);
+		//PrintToChat(client, g_sTierString[0]);
 	}
 
-	AnnounceTimer[client] = null;
+	//AnnounceTimer[client] = null;
 	return Plugin_Handled;
 }
 
@@ -432,7 +432,7 @@ public void SetClanTag(any serial)
 
 	if (!GetConVarBool(g_hCountry) && !GetConVarBool(g_hPointSystem) && !GetConVarBool(g_hAdminClantag))
 	{
-		CS_SetClientClanTag(client, "");
+		//CS_SetClientClanTag(client, "");
 		return;
 	}
 
@@ -487,8 +487,13 @@ public Action HelpMsgTimer(Handle timer, any serial)
 {
 	int client = GetClientFromSerial(serial);
 	if (IsValidClient(client) && !IsFakeClient(client))
-		PrintToChat(client, "%t", "HelpMsg", MOSSGREEN, g_szChatPrefix, WHITE, GREEN, WHITE);
-
+	{
+		//PrintToChat(client, "%t", "HelpMsg", MOSSGREEN, g_szChatPrefix, WHITE, GREEN, WHITE);
+	}
+	else
+	{
+		return Plugin_Handled;
+	}
 	return Plugin_Handled;
 }
 
@@ -499,22 +504,22 @@ public Action AdvertTimer(Handle timer)
 	{
 		if (g_bhasBonus)
 		{
-			PrintToChatAll("%t", "AdvertBonus", MOSSGREEN, g_szChatPrefix, WHITE, MOSSGREEN, WHITE, MOSSGREEN);
+			//PrintToChatAll("%t", "AdvertBonus", MOSSGREEN, g_szChatPrefix, WHITE, MOSSGREEN, WHITE, MOSSGREEN);
 		}
 		else if (g_bhasStages)
 		{
-			PrintToChatAll("%t", "AdvertStage", MOSSGREEN, g_szChatPrefix, WHITE, MOSSGREEN, WHITE, MOSSGREEN, WHITE, MOSSGREEN);
+			//PrintToChatAll("%t", "AdvertStage", MOSSGREEN, g_szChatPrefix, WHITE, MOSSGREEN, WHITE, MOSSGREEN, WHITE, MOSSGREEN);
 		}
 	}
 	else
 	{
 		if (g_bhasStages)
 		{
-			PrintToChatAll("%t", "AdvertStage", MOSSGREEN, g_szChatPrefix, WHITE, MOSSGREEN, WHITE, MOSSGREEN, WHITE, MOSSGREEN);
+			//PrintToChatAll("%t", "AdvertStage", MOSSGREEN, g_szChatPrefix, WHITE, MOSSGREEN, WHITE, MOSSGREEN, WHITE, MOSSGREEN);
 		}
 		else if (g_bhasBonus)
 		{
-			PrintToChatAll("%t", "AdvertBonus", MOSSGREEN, g_szChatPrefix, WHITE, MOSSGREEN, WHITE, MOSSGREEN);
+			//PrintToChatAll("%t", "AdvertBonus", MOSSGREEN, g_szChatPrefix, WHITE, MOSSGREEN, WHITE, MOSSGREEN);
 		}
 	}
 	return Plugin_Continue;
@@ -525,7 +530,7 @@ public void StartMsgTimer(any serial)
 	int client = GetClientFromSerial(serial);
 	if (IsValidClient(client) && !IsFakeClient(client))
 	{
-		PrintMapRecords(client);
+		//PrintMapRecords(client);
 	}
 	return;
 }

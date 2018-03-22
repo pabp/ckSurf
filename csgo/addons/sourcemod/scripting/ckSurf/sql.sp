@@ -5979,13 +5979,13 @@ public void db_viewPlayerOptionsCallback(Handle owner, Handle hndl, const char[]
 
 		//"INSERT INTO ck_playeroptions (steamid, speedmeter, quake_sounds, autobhop, shownames, goto, showtime, hideplayers, showspecs, knife, new1, new2, new3) VALUES('%s', '%i', '%i', '%i', '%i', '%i', '%i', '%i', '%i', '%s', '%i', '%i', '%i');";
 
-		Format(szQuery, 512, sql_insertPlayerOptions, g_szSteamID[client], 1, 1, 1, 1, 1, 0, 0, 1, "weapon_knife", 0, 0, 1, 1);
+		Format(szQuery, 512, sql_insertPlayerOptions, g_szSteamID[client], 0, 0, 0, 1, 0, 0, 0, 1, "weapon_knife", 0, 0, 1, 1);
 		SQL_TQuery(g_hDb, SQL_CheckCallback, szQuery, DBPrio_Low);
-		g_borg_InfoPanel[client] = true;
-		g_borg_EnableQuakeSounds[client] = true;
-		g_borg_AutoBhopClient[client] = true;
+		g_borg_InfoPanel[client] = false;
+		g_borg_EnableQuakeSounds[client] = false;
+		g_borg_AutoBhopClient[client] = false;
 		g_borg_ShowNames[client] = true;
-		g_borg_GoToClient[client] = true;
+		g_borg_GoToClient[client] = false;
 		g_borg_ShowTime[client] = false;
 		g_borg_Hide[client] = false;
 		g_borg_ShowSpecs[client] = true;

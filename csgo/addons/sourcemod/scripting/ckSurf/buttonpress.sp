@@ -82,7 +82,7 @@ public void CL_OnStartTimerPress(int client)
 			if (g_bFirstTimerStart[client])
 			{
 				g_bFirstTimerStart[client] = false;
-				Client_Avg(client, 0);
+				//Client_Avg(client, 0);
 			}
 		}
 	}

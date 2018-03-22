@@ -1896,63 +1896,63 @@ public void OnPluginStart()
 	//RegConsoleCmd("sm_rtimes", Command_rTimes, "[%s] spawns a usp silencer", g_szChatPrefix);
 
 	//client commands
-	RegConsoleCmd("sm_usp", Client_Usp, "[ckSurf] spawns a usp silencer");
-	RegConsoleCmd("sm_avg", Client_Avg, "[ckSurf] prints in chat the average time of the current map");
-	RegConsoleCmd("sm_accept", Client_Accept, "[ckSurf] allows you to accept a challenge request");
-	RegConsoleCmd("sm_hidechat", Client_HideChat, "[ckSurf] hides your ingame chat");
-	RegConsoleCmd("sm_hideweapon", Client_HideWeapon, "[ckSurf] hides your weapon model");
-	RegConsoleCmd("sm_disarm", Client_HideWeapon, "[ckSurf] hides your weapon model");
-	RegConsoleCmd("sm_goto", Client_GoTo, "[ckSurf] teleports you to a selected player");
-	RegConsoleCmd("sm_sound", Client_QuakeSounds, "[ckSurf] on/off quake sounds");
-	RegConsoleCmd("sm_surrender", Client_Surrender, "[ckSurf] surrender your current challenge");
-	RegConsoleCmd("sm_bhop", Client_AutoBhop, "[ckSurf] on/off autobhop");
-	RegConsoleCmd("sm_help2", Client_RankingSystem, "[ckSurf] Explanation of the ckSurf ranking system");
+	//RegConsoleCmd("sm_usp", Client_Usp, "[ckSurf] spawns a usp silencer");
+	//RegConsoleCmd("sm_avg", Client_Avg, "[ckSurf] prints in chat the average time of the current map");
+	//RegConsoleCmd("sm_accept", Client_Accept, "[ckSurf] allows you to accept a challenge request");
+	//RegConsoleCmd("sm_hidechat", Client_HideChat, "[ckSurf] hides your ingame chat");
+	//RegConsoleCmd("sm_hideweapon", Client_HideWeapon, "[ckSurf] hides your weapon model");
+	//RegConsoleCmd("sm_disarm", Client_HideWeapon, "[ckSurf] hides your weapon model");
+	//RegConsoleCmd("sm_goto", Client_GoTo, "[ckSurf] teleports you to a selected player");
+	//RegConsoleCmd("sm_sound", Client_QuakeSounds, "[ckSurf] on/off quake sounds");
+	//RegConsoleCmd("sm_surrender", Client_Surrender, "[ckSurf] surrender your current challenge");
+	//RegConsoleCmd("sm_bhop", Client_AutoBhop, "[ckSurf] on/off autobhop");
+	//RegConsoleCmd("sm_help2", Client_RankingSystem, "[ckSurf] Explanation of the ckSurf ranking system");
 	RegConsoleCmd("sm_flashlight", Client_Flashlight, "[ckSurf] on/off flashlight");
-	RegConsoleCmd("sm_maptop", Client_MapTop, "[ckSurf] displays local map top for a given map");
-	RegConsoleCmd("sm_mtop", Client_MapTop, "[ckSurf] displays local map top for a given map");
+	//RegConsoleCmd("sm_maptop", Client_MapTop, "[ckSurf] displays local map top for a given map");
+	//RegConsoleCmd("sm_mtop", Client_MapTop, "[ckSurf] displays local map top for a given map");
 	RegConsoleCmd("sm_hidespecs", Client_HideSpecs, "[ckSurf] hides spectators from menu/panel");
-	RegConsoleCmd("sm_compare", Client_Compare, "[ckSurf] compare your challenge results");
-	RegConsoleCmd("sm_wr", Client_Wr, "[ckSurf] prints records in chat");
-	RegConsoleCmd("sm_abort", Client_Abort, "[ckSurf] abort your current challenge");
-	RegConsoleCmd("sm_spec", Client_Spec, "[ckSurf] chooses a player who you want to spectate and switch you to spectators");
-	RegConsoleCmd("sm_watch", Client_Spec, "[ckSurf] chooses a player who you want to spectate and switch you to spectators");
-	RegConsoleCmd("sm_spectate", Client_Spec, "[ckSurf] chooses a player who you want to spectate and switch you to spectators");
-	RegConsoleCmd("sm_challenge", Client_Challenge, "[ckSurf] allows you to start a race against others");
+	//RegConsoleCmd("sm_compare", Client_Compare, "[ckSurf] compare your challenge results");
+	//RegConsoleCmd("sm_wr", Client_Wr, "[ckSurf] prints records in chat");
+	//RegConsoleCmd("sm_abort", Client_Abort, "[ckSurf] abort your current challenge");
+	//RegConsoleCmd("sm_spec", Client_Spec, "[ckSurf] chooses a player who you want to spectate and switch you to spectators");
+	//RegConsoleCmd("sm_watch", Client_Spec, "[ckSurf] chooses a player who you want to spectate and switch you to spectators");
+	//RegConsoleCmd("sm_spectate", Client_Spec, "[ckSurf] chooses a player who you want to spectate and switch you to spectators");
+	//RegConsoleCmd("sm_challenge", Client_Challenge, "[ckSurf] allows you to start a race against others");
 	RegConsoleCmd("sm_helpmenu", Client_Help, "[ckSurf] help menu which displays all ckSurf commands");
 	RegConsoleCmd("sm_help", Client_Help, "[ckSurf] help menu which displays all ckSurf commands");
-	RegConsoleCmd("sm_profile", Client_Profile, "[ckSurf] opens a player profile");
-	RegConsoleCmd("sm_rank", Client_Profile, "[ckSurf] opens a player profile");
+	//RegConsoleCmd("sm_profile", Client_Profile, "[ckSurf] opens a player profile");
+	//RegConsoleCmd("sm_rank", Client_Profile, "[ckSurf] opens a player profile");
 	RegConsoleCmd("sm_options", Client_OptionMenu, "[ckSurf] opens options menu");
-	RegConsoleCmd("sm_top", Client_Top, "[ckSurf] displays top rankings (Top 100 Players, Top 50 overall)");
-	RegConsoleCmd("sm_t", Client_Top, "[ckSurf] displays top rankings (Top 100 Players, Top 50 overall)");
-	RegConsoleCmd("sm_topSurfers", Client_Top, "[ckSurf] displays top rankings (Top 100 Players, Top 50 overall)");
-	RegConsoleCmd("sm_bonustop", Client_BonusTop, "[ckSurf] displays top rankings of the bonus");
-	RegConsoleCmd("sm_btop", Client_BonusTop, "[ckSurf] displays top rankings of the bonus");
-	RegConsoleCmd("sm_stop", Client_Stop, "[ckSurf] stops your timer");
-	RegConsoleCmd("sm_ranks", Client_Ranks, "[ckSurf] prints in chat the available player ranks");
-	RegConsoleCmd("sm_pause", Client_Pause, "[ckSurf] on/off pause (timer on hold and movement frozen)");
+	//RegConsoleCmd("sm_top", Client_Top, "[ckSurf] displays top rankings (Top 100 Players, Top 50 overall)");
+	//RegConsoleCmd("sm_t", Client_Top, "[ckSurf] displays top rankings (Top 100 Players, Top 50 overall)");
+	//RegConsoleCmd("sm_topSurfers", Client_Top, "[ckSurf] displays top rankings (Top 100 Players, Top 50 overall)");
+	//RegConsoleCmd("sm_bonustop", Client_BonusTop, "[ckSurf] displays top rankings of the bonus");
+	//RegConsoleCmd("sm_btop", Client_BonusTop, "[ckSurf] displays top rankings of the bonus");
+	//RegConsoleCmd("sm_stop", Client_Stop, "[ckSurf] stops your timer");
+	//RegConsoleCmd("sm_ranks", Client_Ranks, "[ckSurf] prints in chat the available player ranks");
+	//RegConsoleCmd("sm_pause", Client_Pause, "[ckSurf] on/off pause (timer on hold and movement frozen)");
 	RegConsoleCmd("sm_showsettings", Client_Showsettings, "[ckSurf] shows ckSurf server settings");
-	RegConsoleCmd("sm_latest", Client_Latest, "[ckSurf] shows latest map records");
-	RegConsoleCmd("sm_showtime", Client_Showtime, "[ckSurf] on/off - timer text in panel/menu");
-	RegConsoleCmd("sm_hide", Client_Hide, "[ckSurf] on/off - hides other players");
-	RegConsoleCmd("sm_h", Client_Hide, "[ckSurf] on/off - hides other players");
-	RegConsoleCmd("sm_togglecheckpoints", ToggleCheckpoints, "[ckSurf] on/off - Enable player checkpoints");
-	RegConsoleCmd("+noclip", NoClip, "[ckSurf] Player noclip on");
-	RegConsoleCmd("-noclip", UnNoClip, "[ckSurf] Player noclip off");
-	RegConsoleCmd("sm_nc", Command_ckNoClip, "[ckSurf] Player noclip on/off");
+	//RegConsoleCmd("sm_latest", Client_Latest, "[ckSurf] shows latest map records");
+	//RegConsoleCmd("sm_showtime", Client_Showtime, "[ckSurf] on/off - timer text in panel/menu");
+	//RegConsoleCmd("sm_hide", Client_Hide, "[ckSurf] on/off - hides other players");
+	//RegConsoleCmd("sm_h", Client_Hide, "[ckSurf] on/off - hides other players");
+	//RegConsoleCmd("sm_togglecheckpoints", ToggleCheckpoints, "[ckSurf] on/off - Enable player checkpoints");
+	//RegConsoleCmd("+noclip", NoClip, "[ckSurf] Player noclip on");
+	//RegConsoleCmd("-noclip", UnNoClip, "[ckSurf] Player noclip off");
+	//RegConsoleCmd("sm_nc", Command_ckNoClip, "[ckSurf] Player noclip on/off");
 
 	// Teleportation commands
-	RegConsoleCmd("sm_stages", Command_SelectStage, "[ckSurf] Opens up the stage selector");
-	RegConsoleCmd("sm_r", Command_Restart, "[ckSurf] Teleports player back to the start");
-	RegConsoleCmd("sm_restart", Command_Restart, "[ckSurf] Teleports player back to the start");
-	RegConsoleCmd("sm_start", Command_Restart, "[ckSurf] Teleports player back to the start");
-	RegConsoleCmd("sm_b", Command_ToBonus, "[ckSurf] Teleports player back to the start");
-	RegConsoleCmd("sm_ncr", Command_RestartNC, "[ckSurf] Teleports player back to the start after they have NoClipped as well as set state to not noclipd");
-	RegConsoleCmd("sm_bonus", Command_ToBonus, "[ckSurf] Teleports player back to the start");
-	RegConsoleCmd("sm_bonuses", Command_ListBonuses, "[ckSurf] Displays a list of bonuses in current map");
-	RegConsoleCmd("sm_s", Command_ToStage, "[ckSurf] Teleports player to the selected stage");
-	RegConsoleCmd("sm_stage", Command_ToStage, "[ckSurf] Teleports player to the selected stage");
-	RegConsoleCmd("sm_end", Command_ToEnd, "[ckSurf] Teleports player to the end zone");
+	//RegConsoleCmd("sm_stages", Command_SelectStage, "[ckSurf] Opens up the stage selector");
+	//RegConsoleCmd("sm_r", Command_Restart, "[ckSurf] Teleports player back to the start");
+	//RegConsoleCmd("sm_restart", Command_Restart, "[ckSurf] Teleports player back to the start");
+	//RegConsoleCmd("sm_start", Command_Restart, "[ckSurf] Teleports player back to the start");
+	//RegConsoleCmd("sm_b", Command_ToBonus, "[ckSurf] Teleports player back to the start");
+	//RegConsoleCmd("sm_ncr", Command_RestartNC, "[ckSurf] Teleports player back to the start after they have NoClipped as well as set state to not noclipd");
+	//RegConsoleCmd("sm_bonus", Command_ToBonus, "[ckSurf] Teleports player back to the start");
+	//RegConsoleCmd("sm_bonuses", Command_ListBonuses, "[ckSurf] Displays a list of bonuses in current map");
+	//RegConsoleCmd("sm_s", Command_ToStage, "[ckSurf] Teleports player to the selected stage");
+	//RegConsoleCmd("sm_stage", Command_ToStage, "[ckSurf] Teleports player to the selected stage");
+	//RegConsoleCmd("sm_end", Command_ToEnd, "[ckSurf] Teleports player to the end zone");
 
 	// Titles
 	RegConsoleCmd("sm_title", Command_SetTitle, "[ckSurf] Displays player's titles");
@@ -1966,37 +1966,37 @@ public void OnPluginStart()
 	}
 
 	// MISC
-	RegConsoleCmd("sm_tier", Command_Tier, "[ckSurf] Prints information on the current map");
-	RegConsoleCmd("sm_maptier", Command_Tier, "[ckSurf] Prints information on the current map");
-	RegConsoleCmd("sm_mapinfo", Command_Tier, "[ckSurf] Prints information on the current map");
-	RegConsoleCmd("sm_mi", Command_Tier, "[ckSurf] Prints information on the current map");
-	RegConsoleCmd("sm_m", Command_Tier, "[ckSurf] Prints information on the current map");
-	RegConsoleCmd("sm_difficulty", Command_Tier, "[ckSurf] Prints information on the current map");
-	RegConsoleCmd("sm_btier", Command_bTier, "[ckSurf] Prints tier information on current map's bonuses");
-	RegConsoleCmd("sm_bonusinfo", Command_bTier, "[ckSurf] Prints tier information on current map's bonuses");
-	RegConsoleCmd("sm_bi", Command_bTier, "[ckSurf] Prints tier information on current map's bonuses");
-	RegConsoleCmd("sm_howto", Command_HowTo, "[ckSurf] Displays a youtube video on how to surf");
+	//RegConsoleCmd("sm_tier", Command_Tier, "[ckSurf] Prints information on the current map");
+	//RegConsoleCmd("sm_maptier", Command_Tier, "[ckSurf] Prints information on the current map");
+	//RegConsoleCmd("sm_mapinfo", Command_Tier, "[ckSurf] Prints information on the current map");
+	//RegConsoleCmd("sm_mi", Command_Tier, "[ckSurf] Prints information on the current map");
+	//RegConsoleCmd("sm_m", Command_Tier, "[ckSurf] Prints information on the current map");
+	//RegConsoleCmd("sm_difficulty", Command_Tier, "[ckSurf] Prints information on the current map");
+	//RegConsoleCmd("sm_btier", Command_bTier, "[ckSurf] Prints tier information on current map's bonuses");
+	//RegConsoleCmd("sm_bonusinfo", Command_bTier, "[ckSurf] Prints tier information on current map's bonuses");
+	//RegConsoleCmd("sm_bi", Command_bTier, "[ckSurf] Prints tier information on current map's bonuses");
+	//RegConsoleCmd("sm_howto", Command_HowTo, "[ckSurf] Displays a youtube video on how to surf");
 	RegConsoleCmd("sm_ve", Command_VoteExtend, "[ckSurf] Vote to extend the map");
 	RegConsoleCmd("sm_vmute", Command_MutePlayer, "[ckSurf] Mute a player");
 
 	// Teleport to the start of the stage
-	RegConsoleCmd("sm_stuck", Command_Teleport, "[ckSurf] Teleports player back to the start of the stage");
-	RegConsoleCmd("sm_back", Command_Teleport, "[ckSurf] Teleports player back to the start of the stage");
-	RegConsoleCmd("sm_rs", Command_Teleport, "[ckSurf] Teleports player back to the start of the stage");
-	RegConsoleCmd("sm_play", Command_Teleport, "[ckSurf] Teleports player back to the start");
-	RegConsoleCmd("sm_spawn", Command_Teleport, "[ckSurf] Teleports player back to the start");
+	//RegConsoleCmd("sm_stuck", Command_Teleport, "[ckSurf] Teleports player back to the start of the stage");
+	//RegConsoleCmd("sm_back", Command_Teleport, "[ckSurf] Teleports player back to the start of the stage");
+	//RegConsoleCmd("sm_rs", Command_Teleport, "[ckSurf] Teleports player back to the start of the stage");
+	//RegConsoleCmd("sm_play", Command_Teleport, "[ckSurf] Teleports player back to the start");
+	//RegConsoleCmd("sm_spawn", Command_Teleport, "[ckSurf] Teleports player back to the start");
 
 	// Player Checkpoints
-	RegConsoleCmd("sm_teleport", Command_goToPlayerCheckpoint, "[ckSurf] Teleports player to his last checkpoint");
-	RegConsoleCmd("sm_tele", Command_goToPlayerCheckpoint, "[ckSurf] Teleports player to his last checkpoint");
-	RegConsoleCmd("sm_prac", Command_goToPlayerCheckpoint, "[ckSurf] Teleports player to his last checkpoint");
-	RegConsoleCmd("sm_practice", Command_goToPlayerCheckpoint, "[ckSurf] Teleports player to his last checkpoint");
+	//RegConsoleCmd("sm_teleport", Command_goToPlayerCheckpoint, "[ckSurf] Teleports player to his last checkpoint");
+	//RegConsoleCmd("sm_tele", Command_goToPlayerCheckpoint, "[ckSurf] Teleports player to his last checkpoint");
+	//RegConsoleCmd("sm_prac", Command_goToPlayerCheckpoint, "[ckSurf] Teleports player to his last checkpoint");
+	//RegConsoleCmd("sm_practice", Command_goToPlayerCheckpoint, "[ckSurf] Teleports player to his last checkpoint");
 
-	RegConsoleCmd("sm_cp", Command_createPlayerCheckpoint, "[ckSurf] Creates a checkpoint, where the player can teleport back to");
-	RegConsoleCmd("sm_checkpoint", Command_createPlayerCheckpoint, "[ckSurf] Creates a eckpoint, where the player can teleport back to");
-	RegConsoleCmd("sm_undo", Command_undoPlayerCheckpoint, "[ckSurf] Undoes the players lchast checkpoint");
-	RegConsoleCmd("sm_normal", Command_normalMode, "[ckSurf] Switches player back to normal mode");
-	RegConsoleCmd("sm_n", Command_normalMode, "[ckSurf] Switches player back to normal mode");
+	//RegConsoleCmd("sm_cp", Command_createPlayerCheckpoint, "[ckSurf] Creates a checkpoint, where the player can teleport back to");
+	//RegConsoleCmd("sm_checkpoint", Command_createPlayerCheckpoint, "[ckSurf] Creates a eckpoint, where the player can teleport back to");
+	//RegConsoleCmd("sm_undo", Command_undoPlayerCheckpoint, "[ckSurf] Undoes the players lchast checkpoint");
+	//RegConsoleCmd("sm_normal", Command_normalMode, "[ckSurf] Switches player back to normal mode");
+	//RegConsoleCmd("sm_n", Command_normalMode, "[ckSurf] Switches player back to normal mode");
 
 	RegAdminCmd("sm_ckadmin", Admin_ckPanel, g_AdminMenuFlag, "[ckSurf] Displays the ckSurf menu panel");
 	RegAdminCmd("sm_extend", Command_extend, g_AdminMenuFlag, "[ckSurf] Extend map by certain amount");
@@ -2013,7 +2013,7 @@ public void OnPluginStart()
 	RegAdminCmd("sm_deletecheckpoints", Admin_DeleteCheckpoints, ADMFLAG_ROOT, "[ckSurf] Reset checkpoints on the current map");
 	RegAdminCmd("sm_insertmaptiers", Admin_InsertMapTiers, ADMFLAG_ROOT, "[ckSurf] Insert premade maptier information into the database (ONLY RUN THIS ONCE)");
 	RegAdminCmd("sm_insertmapzones", Admin_InsertMapZones, ADMFLAG_ROOT, "[ckSurf] Insert premade map zones into the database (ONLY RUN THIS ONCE)");
-	RegAdminCmd("sm_zones", Command_Zones, g_ZoneMenuFlag, "[ckSurf] Opens up the zone creation menu");
+	RegAdminCmd("sm_ckzones", Command_Zones, g_ZoneMenuFlag, "[ckSurf] Opens up the zone creation menu");
 	RegAdminCmd("sm_admintitles", Admin_giveTitle, ADMFLAG_ROOT, "[ckSurf] Gives a player a title");
 	RegAdminCmd("sm_admintitle", Admin_giveTitle, ADMFLAG_ROOT, "[ckSurf] Gives a player a title");
 	RegAdminCmd("sm_givetitle", Admin_giveTitle, ADMFLAG_ROOT, "[ckSurf] Gives a player a title");
